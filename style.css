@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 nav {
@@ -15,10 +16,32 @@ nav {
 .nav-left a {
     text-decoration: none;
     color: #000;
+    margin-right: 23px;
+    font-display: flex;
+    justify-content: flex-start;
+    width: auto;
+    
+}
+
+.avatar, i {
+    margin-top: 10px;
 }
 
 .nav-right a {
     text-decoration: none;
     color: #000;
+    margin-left: 23px;
+    font-display: flex;
+    margin-top: 20px;
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+    
+}
+
+.google {
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
