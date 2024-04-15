@@ -8,8 +8,8 @@
 nav {
     display: flex;
     text-decoration: none;
-    justify-content: space-between;
-    align-content: center;
+    width: 100%;
+    justify-content: space-between;    
 
 }
 
@@ -23,25 +23,81 @@ nav {
     
 }
 
-.avatar, i {
-    margin-top: 10px;
-}
-
 .nav-right a {
     text-decoration: none;
     color: #000;
     margin-left: 23px;
     font-display: flex;
-    margin-top: 20px;
     width: auto;
     height: auto;
-    margin-top: 20px;
+
     
 }
 
-.google {
+
+.fom {
     display: flex;
-    justify-content: center;
-    align-content: center;
+    width: 70%;
+    border: 1px solid lightgray;
+    border-radius: 16px;
+    align-items: center;
+    justify-items: center;
+
 }
 
+.fom input {
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.just {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: 100vh;
+    justify-content: space-between;
+    
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 12px;
+    border: none;
+    font-size: 1.16rem;
+}
+
+footer {
+ background: #eee;
+ width: 100%;
+height: 100px;
+padding: 0 20px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links-left, .link-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 10px;
+}
